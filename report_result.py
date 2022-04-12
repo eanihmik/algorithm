@@ -1,3 +1,6 @@
+# https://programmers.co.kr/learn/courses/30/lessons/92334
+# 66.7 / 100(타임아웃)
+
 import numpy as np
 def solution(id_list, report, k):
     report = np.unique(report)
