@@ -25,6 +25,7 @@ def theils_u(x, y):
     return (s_x - s_xy) / s_x
 
 def correlation_ratio(categories, measurements):
+  measurements = np.array(measurements)
   fcat, _ = pd.factorize(categories)
   cat_num = np.max(fcat)+1
   y_avg_array = np.zeros(cat_num)
